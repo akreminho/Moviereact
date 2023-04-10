@@ -1,0 +1,20 @@
+.poster{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    background-image: linear-gradient(to right, black, rgb(5, 5, 121));}
+.postimg{
+    width:560px;
+}
+.title{
+    text-align: start;
+    color: white;
+}
+.gallery{
+    display: flex;
+    justify-content: space-around;
+}
+.gal{
+width: 270px;
+height: 200px;
+}
