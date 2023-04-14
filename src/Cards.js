@@ -10,10 +10,11 @@ import './Cards.css';
 function Cards() {
   return (
     <div>
+    {/* add bootstrap template card */}
     <CardGroup>
       <Card style={{height:"350px"}}>
       <HoverVideoPlayer
-      videoSrc={vd}
+      videoSrc={vd} controls
       pausedOverlay={
         <Card.Img style={{height:'350px'}} className='image' variant="top" src={img1} />
 
@@ -33,7 +34,8 @@ function Cards() {
       </Card>
       <Card style={{height:"350px"}}>
       <HoverVideoPlayer
-      videoSrc={vd1}
+      videoSrc={vd1} allowfullscreen
+
       pausedOverlay={
         <Card.Img style={{height:'350px'}} className='image' variant="top" src={img3} />
 
@@ -44,6 +46,7 @@ function Cards() {
             This is a wider card with supporting text below as a natural lead-in
             
           </Card.Text>
+          {/* add buttons */}
           <div>
           <button className='btn1'>More Info</button>
           <button className='btn2'>Purchase</button>
@@ -53,7 +56,7 @@ function Cards() {
       </Card>
       <Card style={{height:"350px"}}>
       <HoverVideoPlayer
-      videoSrc={vd}
+      videoSrc={vd} controls
       pausedOverlay={
         <Card.Img style={{height:'350px'}} className='image' variant="top" src={img2} />
 

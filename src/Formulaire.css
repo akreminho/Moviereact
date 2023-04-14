@@ -1,0 +1,8 @@
+.forms{
+display: flex;
+justify-content:center;
+}
+form{
+    background-color: transparent;
+    
+}

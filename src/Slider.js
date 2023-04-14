@@ -4,6 +4,7 @@ import Carousel from 'react-bootstrap/Carousel';
 import img1 from './avatar1.jpg';
 import img2 from './avatar2.jpg';
 import img3 from './avatar3.jpg';
+// import slider using bootstrap template
 function Slider() {
   return (
     <div className='slides'>
