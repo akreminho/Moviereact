@@ -1,32 +1,31 @@
 import React from 'react'
-import post from './poster.jpg'
+import poster from './posterres.jpg'
 import './Poster.css'
-import avt1 from './avatar1.jpg'
-import avt2 from './avatar2.jpg'
-import avt3 from './avatar3.jpg'
-import avt4 from './avatar4.jpg'
-import avt5 from './avatar5.jpg'
-import avt6 from './avatar6.jpg'
-// import poster image 
+import res1 from './reason1.jpg'
+import res2 from './reason2.jpg'
+import res3 from './reason3.jpg'
+import res4 from './reason1.jpg'
+
+//  poster movie 
 const Poster = () => {
     return (
         <div className='poster'>
-            <img className='postimg' src={post} alt='404' />
+            <img className='postimg' src={poster} alt='404' />
             <div className='title'>
-                <h1>Avatar</h1>
+                <h1>13 REASONS WHY</h1>
                 <p>
-                    Avatar est un film de science-fiction américain réalisé par James Cameron et sorti en 2009. Il s'agit du premier film de la franchise cinématographique Avatar.
+                13 Reasons Why, ou Treize Raisons au Québec, est une série télévisée américaine développée par Brian Yorkey (en) d'après le roman Treize raisons de Jay Asher et diffusée du 31 mars 2017 au 5 juin 2020 dans le monde entier sur Netflix  
                 </p>
-{/* import movies gallery */}
+{/*  movies gallery */}
                 <div className='gallery'>
-                    <img className='gal' src={avt1} alt='404'/>
-                    <img className='gal' src={avt2} alt='404' />
-                    <img className='gal' src={avt3} alt='404'/>
-                    <img className='gal' src={avt4} alt='404'/>
-                    <img className='gal' src={avt5} alt='404'/>
-                    <img className='gal' src={avt6} alt='404'/>
-                    
-
+                    <img className='gallery_items' src={res1} alt='404'/>
+                    <img className='gallery_items' src={res2} alt='404' />
+                    <img className='gallery_items' src={res3} alt='404'/>
+                    <img className='gallery_items' src={res4} alt='404'/>
+                    <img className='gallery_items' src={res1} alt='404'/>
+                    <img className='gallery_items' src={res2} alt='404' />
+                    <img className='gallery_items' src={res3} alt='404'/>
+                    <img className='gallery_items' src={res4} alt='404'/>
                 </div>
             </div>
         </div>

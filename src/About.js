@@ -1,13 +1,12 @@
 import React from 'react'
-import av from './avatarp.png'
+import rposter from './reasonposter.jpg'
 import './About.css'
 function About() {
   return (
     <div className='about'>
-          <p>
-    Avatar est un film de science-fiction américain réalisé par James Cameron et sorti en 2009. Il s'agit du premier film de la franchise cinématographique Avatar.
-    </p>
-      <img className='avatarp' src={av} alt='404'/>
+          <h3>
+          13 Reasons Why, ou Treize Raisons au Québec, est une série télévisée américaine développée par Brian Yorkey (en) d'après le roman Treize raisons de Jay Asher et diffusée du 31 mars 2017 au 5 juin 2020 dans le monde entier sur Netflix    </h3>
+      <img className='resposter' src={rposter} alt='404'/>
 
     </div>
   )

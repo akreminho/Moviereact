@@ -6,18 +6,12 @@ const Formulaire = () => {
   return (
     <div className='forms'>
       <Form className='formul' style={{ width: '50rem', paddingTop: '2rem'}} >
+     
       <Form.Group className="mb-3" controlId="formBasicEmail">
-        <Form.Label>Name</Form.Label>
-        <Form.Control type="email" placeholder="Enter name" />
+        <Form.Label>Full Name</Form.Label>
+        <Form.Control type="last-name" placeholder="Enter Full name" />
         <Form.Text className="text-muted">
-Please Insert your Name     
-   </Form.Text>
-      </Form.Group>
-      <Form.Group className="mb-3" controlId="formBasicEmail">
-        <Form.Label>Last Name</Form.Label>
-        <Form.Control type="email" placeholder="Enter last name" />
-        <Form.Text className="text-muted">
-        Please Insert your Last Name     
+        Please Insert your Full Name     
 
         </Form.Text>
       </Form.Group>

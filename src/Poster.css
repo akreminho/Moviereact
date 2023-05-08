@@ -15,7 +15,7 @@
     justify-content: space-around;
     flex-wrap: wrap;
 }
-.gal{
+.gallery_items{
 width: 270px;
 height: 200px;
 margin: 20px;
@@ -30,12 +30,7 @@ margin: 20px;
 
 
 
-.gal:hover {
-/* L'image est grossie de 25% */
--webkit-transform:scale(1.25); /* Safari et Chrome */
--moz-transform:scale(1.25); /* Firefox */
--ms-transform:scale(1.25); /* Internet Explorer 9 */
--o-transform:scale(1.25); /* Opera */
-transform:scale(1.25);
+.gallery_items:hover {
+-webkit-transform:scale(1.25); 
+
 }
-        

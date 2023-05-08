@@ -1,9 +1,9 @@
 import React from 'react';
 import './Slider.css';
 import Carousel from 'react-bootstrap/Carousel';
-import img1 from './avatar1.jpg';
-import img2 from './avatar2.jpg';
-import img3 from './avatar3.jpg';
+import image1 from './reason1.jpg';
+import image2 from './reason2.jpg';
+import image3 from './reason3.jpg';
 // import slider using bootstrap template
 function Slider() {
   return (
@@ -11,7 +11,7 @@ function Slider() {
     <Carousel>
       <Carousel.Item>
         <img 
-          src={img1}
+          src={image1}
           alt="First slide"
         />
         <Carousel.Caption>
@@ -21,7 +21,7 @@ function Slider() {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          src={img2}
+          src={image2}
           alt="Second slide"
         />
 
@@ -32,7 +32,7 @@ function Slider() {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          src={img3}
+          src={image3}
           alt="Third slide"
         />
 

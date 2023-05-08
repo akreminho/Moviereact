@@ -10,8 +10,8 @@ function Search() {
             <Container>
               <Nav className="me-auto" >
                 <Nav.Link href="#home" style={{color:'white'}}>Home</Nav.Link>
-                <Nav.Link href="#features" style={{color:'white'}}>Features</Nav.Link>
-                <Nav.Link href="#pricing" style={{color:'white'}}>Pricing</Nav.Link>
+                <Nav.Link href="#features" style={{color:'white'}}>New Series</Nav.Link>
+                <Nav.Link href="#pricing" style={{color:'white'}}>Upcoming</Nav.Link>
                 <Nav.Link href="#pricing" style={{color:'white'}}>New Movies</Nav.Link>
 
               </Nav>
